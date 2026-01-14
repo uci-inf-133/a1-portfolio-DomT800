@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
-    border: 1px, solid, black;
-
+    margin: 0;
 }
 
 #w3c {
@@ -11,4 +10,8 @@
 
 h1 {
     color: greenyellow;
+}
+
+body {
+    margin: 0;
 }
