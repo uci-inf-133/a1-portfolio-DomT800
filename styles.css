@@ -9,9 +9,48 @@
 }
 
 h1 {
-    color: greenyellow;
+    color: black;
+    padding-top: 32px;
+    padding-left: 72px;
+    position: relative;
+    z-index: 2;
 }
 
 body {
     margin: 0;
+}
+
+.folder-background {
+    position: absolute;
+}
+
+.folder-in-focus {
+    z-index: 1;
+}
+
+.folder-sleep {
+    z-index: 0;
+}
+
+.home-folder {
+    --folder-color: lightblue;
+    --folder-outline-color: skyblue; 
+    z-index: 1;
+}
+
+.about-folder {
+    --folder-color: lightpink;
+    --folder-outline-color: red;
+}
+
+.about-header {
+    color: black;
+    padding-top: 32px;
+    padding-left: 72px;
+    position: relative;
+    z-index: 2;
+}
+
+.page-headers * {
+    display: inline-block;
 }
