@@ -3,18 +3,26 @@
     margin: 0;
 }
 
+html, body {
+    height: 100%;
+}
+
+:root {
+    --bruh:( 100 * 10px);
+}
+
 h1 {
     position: absolute;
     z-index: 3;
     left: 45%;
-    top: 20%;
+    top: 5%;
 }
 
 .tab-headers h2 {
     display: inline-block;
     padding: 10px;
     margin-top: 30px;
-    background-color: rgb(231, 246, 252);
+    background-color: hsl(197, 78%, 95%);
     border: 2px;
     border-color: rgb(130, 217, 255);
     border-style: solid;
@@ -24,6 +32,8 @@ h1 {
     border-bottom-right-radius: 0%;
     position: absolute;
     transition: padding-bottom 0.5s, margin-top 0.5s, margin-bottom 0.5s;
+    top: 2px;
+
 }
 
 @keyframes raise {
@@ -40,7 +50,7 @@ h1 {
 
 h2:hover {
     padding-bottom: 30px;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: 0px;
     
 }
@@ -51,26 +61,22 @@ h2:hover {
 
 #home-tab {
     left: 20px;
-    bottom: 482px;
 }
 
 #about-tab {
     left: 110px;
-    bottom: 482px;
     border-color: red;
     background-color: lightpink;
 }
 
 #resume-tab {
     left: 242px;
-    bottom: 482px;
     border-color: green;
     background-color: lightgreen;
 }
 
 #projects-tab {
     left: 350px;
-    bottom: 482px;
     border-color: yellow;
     background-color: lemonchiffon;
 }
@@ -78,12 +84,31 @@ h2:hover {
 
 
 p {
+    
+}
+
+main {
     position: relative;
     top: -2px;
-    background-color: rgb(231, 246, 252);
-    border-color: rgb(130, 217, 255);
+    background-color: #e7f6fc;
+    border-color: #82d9ff;
     border-style: solid;
-    height: 100vh;
+    height: 100%;
     z-index: 1;
     margin-top: 80px;
+}
+
+#dom {
+    height: 40%;
+    top: 12%;
+    left: 45%;
+    position: relative;
+    border-radius: 5%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #82d9ff;
+}
+
+picture {
+    
 }
