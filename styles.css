@@ -3,7 +3,11 @@
     margin: 0;
 }
 
-html, body {
+html {
+    height: 100%;
+}
+
+body {
     height: 100%;
 }
 
@@ -18,7 +22,6 @@ h1 {
     left: 10%;
     top: 8%;
     font-family: "contm";
-    color: #64bddb;
 }
 
 .tab-headers {    
@@ -49,6 +52,7 @@ li:hover {
 
 .in-focus-tab {
     z-index: 2;
+    top: -1px;
 }
 
 .contm-font {
@@ -57,7 +61,6 @@ li:hover {
 
 .home-position {
     left: 20px;
-    top: 0px;
 }
 
 .home-color {
@@ -76,7 +79,7 @@ li:hover {
 }
 
 .resume-position {
-    left: 235px;
+    left: 346px;
 }
 
 .resume-color {
@@ -86,7 +89,7 @@ li:hover {
 }
 
 .projects-position {
-    left: 346px;
+    left: 235px;
 }
 
 .projects-color {
@@ -104,45 +107,17 @@ main {
     margin-top: 80px;
 }
 
-#dom {
-    height: 40%;
-    top: 12%;
-    left: 10%;
-    position: relative;
-    border-radius: 5%;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #82d9ff;
-}
-
-picture {
-    
-}
-
-.line {
-    background-color: #82d9ff;
-    padding: 4px;
-    top: 15%;
-    left: 10.5%;
-    width: 18%;
-    position: relative;
-}
-
 aside {
     position: relative;
     top: 16%;
     left: 11%;
     font-family: "contm";
-    color: #64bddb;
     font-size: 20px;
 }
 
 p {
     position: relative;
-    top: -30%;
-    left: 32%;
     font-family: "contm";
-    color: #64bddb;
     font-size: 20px;
 }
 
@@ -152,4 +127,78 @@ a {
     left: 0%;
     width: 100%;
     height: 100%;
+}
+
+@media (min-width: 576px) {
+
+    #dom {
+        top: 12%;
+        left: 10%;
+        width: 440px;
+        position: relative;
+        border-radius: 5%;
+        border-width: 2px;
+        border-style: solid;
+}
+    
+    aside {
+        font-size: 30px;
+    }
+
+    p {
+        position: relative;
+        top: 20%;
+        left: 10%;
+        font-size: 35px;
+
+    
+}
+
+    #jellyfish_vid {
+        left: 200px;
+    }
+
+
+}
+
+@media (min-width: 992px) {
+
+    #dom {
+    top: 12%;
+    left: 10%;
+    width: 490px;
+    position: relative;
+    border-radius: 5%;
+    border-width: 3px;
+    border-style: solid;
+}
+
+    p {
+    position: relative;
+    font-size: 40px;
+}
+
+    #jellyfish_vid {
+        position: relative;
+        left: 10%;
+        top: 150px;
+        border-radius: 5%;
+        border-color: blue;
+        border-style: solid;
+    }
+
+    #vid_button {
+        position: relative;
+        left: 72%;
+        top: 14%;
+    }
+
+    button {
+        font-size: 30px;
+        color: rgb(17, 80, 252);
+        background-color: rgb(226, 226, 226);
+        border-color: rgb(66, 3, 3);
+        border-style: solid;
+        border-radius: 5%;
+    }
 }

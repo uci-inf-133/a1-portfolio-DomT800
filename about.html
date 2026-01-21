@@ -19,7 +19,7 @@ EMAIL: dominmt2@uci.edu
   <body>
 
     <nav>
-        <ul class="tab-headers">
+        <ul class="tab-headers contm-font">
         <li class="home-position home-color"><a href="index.html"></a><h2>Home</h2></li>
         <li class="in-focus-tab about-position about-color"><h2>About Me</h2></li>
         <li class="projects-position projects-color"><h2><a href="projects.html"></a>Projects</h2></li>
@@ -29,14 +29,37 @@ EMAIL: dominmt2@uci.edu
 
     <main class="about-color">
       <header>
-        <h1>Dominic Tran</h1>
+        <h1>More of me!</h1>
       </header>
       <picture>
-        <img src="dom.jpg" id="dom" alt="A picture of he!">
+        <img src="dom2.jpg" id="dom" alt="Another picture of he!">
       </picture>
-      <div class="line"></div>
-      <aside>Just a chill guy</aside>
-      <p>Placeholder text</p>
+      <picture>
+        <img src="lake.jpg" id="dom" alt="A picture of a lake.">
+      </picture>
+      <picture>
+        <img src="stars.jpg" id="dom" alt="A picture of a starry night.">
+      </picture>
+      <video id="jellyfish_vid">
+        <source src="jellyfish.mp4" alt="A picture of a waterfall.">
+        The current browser does not support the video tag.
+      </video>
+      <div id="vid_button"> 
+      <button onclick="playPause()" class="contm-font">Play/Pause</button> 
+      </div>
+
+      <script>
+        var jellyfish_vid = document.getElementById("jellyfish_vid"); 
+
+        function playPause() { 
+          if (jellyfish_vid.paused) 
+            jellyfish_vid.play(); 
+          else 
+            jellyfish_vid.pause(); 
+        } 
+      </script>
+      
+      <p>I love hiking and nature! A hobby of mine is photography, especially astrophotography!</p>
     </main>
 
 
