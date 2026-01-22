@@ -103,20 +103,6 @@ main {
     margin-top: 80px;
 }
 
-aside {
-    position: relative;
-    top: 16%;
-    left: 11%;
-    font-family: "contm";
-    font-size: 20px;
-}
-
-p {
-    position: relative;
-    font-family: "contm";
-    font-size: 20px;
-}
-
 a {
     position: absolute;
     top: 0%;
@@ -136,7 +122,7 @@ a {
     }
 
     #dom {
-        top: 12%;
+        top: 19%;
         left: 10%;
         width: 200px;
         position: relative;
@@ -144,14 +130,10 @@ a {
         border-width: 2px;
         border-style: solid;
 }
-    
-    aside {
-        font-size: 30px;
-    }
 
-    p {
+    #home-p {
         position: relative;
-        top: 15%;
+        top: 20%;
         left: 2%;
         font-size: 35px;
 
@@ -160,23 +142,23 @@ a {
 
     #dom2 {
         position: relative;
-        width: 25%;
+        width: 120px;
         left: 58px;
-        top: 116px;
+        top: 70px;
         border-radius: 5%;
     }
 
     #stars {
         position: relative;
-        width: 25%;
+        width: 120px;
         left: 12%;
-        top: 116px;
+        top: 70px;
         border-radius: 5%;
     }
 
     #lake {
         position: relative;
-        width: 82%;
+        width: 270px;
         left: 58px;
         top: 220px;
         border-radius: 5%;
@@ -185,9 +167,9 @@ a {
 
     #jellyfish_vid {
         position: relative;
-        width: 25%;
+        width: 120px;
         left: 380px;
-        top: -350px;
+        top: -70px;
         border-radius: 5%;
     }
 
@@ -269,18 +251,15 @@ a {
     }
 
     #dom {
-        top: 12%;
+        top: 18%;
         left: 10%;
-        width: 200px;
+        width: 250px;
         position: relative;
         border-radius: 5%;
         border-width: 2px;
         border-style: solid;
 }
     
-    aside {
-        font-size: 30px;
-    }
 
     p {
         position: relative;
@@ -393,5 +372,266 @@ a {
 }
 
 @media (min-width: 992px) {
+    h1 {
+        position: absolute;
+        left: 5%;
+        top: 5%;
+        font-family: "contm";
+        font-size: 40px;
+    }
 
+    #dom {
+        top: 100px;
+        left: 10%;
+        width: 300px;
+        position: relative;
+        border-radius: 5%;
+        border-width: 2px;
+        border-style: solid;
+}
+    
+    aside {
+        font-size: 30px;
+    }
+
+    #home-p {
+        position: relative;
+        top: 130px;
+        left: 2%;
+        font-size: 35px;
+
+    
+    }
+
+    #dom2 {
+        position: relative;
+        width: 200px;
+        left: 50px;
+        top: 50px;
+        border-radius: 5%;
+    }
+
+    #stars {
+        position: relative;
+        width: 200px;
+        left: 55px;
+        top: 50px;
+        border-radius: 5%;
+    }
+
+    #lake {
+        position: relative;
+        width: 300px;
+        left: 60px;
+        top: 10px;
+        border-radius: 5%;
+    }
+
+
+    #jellyfish_vid {
+        position: relative;
+        width: 170px;
+        left: 70px;
+        top: 80px;
+        border-radius: 5%;
+    }
+
+    #vid_button {
+        position: relative;
+        width: 25%;
+        left: 825px;
+        top: 100px;
+        border-radius: 5%;
+    }
+
+    #about-p {
+        position: relative;
+        top: 120px;
+        left: 40px;
+        font-size: 30px;
+    }
+
+    #current-h2 {
+        position: relative;
+        font-size: 35px;
+        top: 110px;
+        left: 30px;
+    }
+
+    #toji {
+        position: relative;
+        width: 250px;
+        left: 58px;
+        top: 116px;
+        border-radius: 5%;
+    }
+
+    #tojisword {
+        position: relative;
+        width: 200px;
+        left: 58px;
+        top: 116px;
+        border-radius: 5%;
+    }
+
+    #mod-p {
+        position: relative;
+        left: 15px;
+        top: 130px;
+        font-size:25px;
+    }
+
+    #pdf {
+        position: relative;
+        left: 20%;
+        top: 20%;
+        height: 60%;
+    }
+
+    .download-icon {
+        display:inline-block;
+        position: relative;
+        width: 60px;
+        height: 60px;
+        top: 28%;
+        left: -12%;
+    }
+
+    #hint-p {
+        position: relative;
+        font-size: 25px;
+        top: 30%;
+        left: 230px;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        position: absolute;
+        left: 5%;
+        top: 5%;
+        font-family: "contm";
+        font-size: 40px;
+    }
+
+    #dom {
+        top: 18%;
+        left: 10%;
+        width: 20%;
+        position: relative;
+        border-radius: 5%;
+        border-width: 2px;
+        border-style: solid;
+}
+    
+    aside {
+        font-size: 30px;
+    }
+
+    #home-p {
+        position: relative;
+        top: 20%;
+        left: 2%;
+        font-size: 40px;
+    }
+
+    #dom2 {
+        position: relative;
+        width: 250px;
+        left: 50px;
+        top: 80px;
+        border-radius: 5%;
+    }
+
+    #stars {
+        position: relative;
+        width: 250px;
+        left: 55px;
+        top: 80px;
+        border-radius: 5%;
+    }
+
+    #lake {
+        position: relative;
+        width: 400px;
+        left: 60px;
+        top: 10px;
+        border-radius: 5%;
+    }
+
+
+    #jellyfish_vid {
+        position: relative;
+        width: 200px;
+        left: 70px;
+        top: 80px;
+        border-radius: 5%;
+    }
+
+    #vid_button {
+        position: relative;
+        left: 1040px;
+        top: 100px;
+        border-radius: 5%;
+    }
+
+    #about-p {
+        position: relative;
+        top: 19%;
+        left: 40px;
+        font-size: 30px;
+    }
+
+    #current-h2 {
+        position: relative;
+        font-size: 35px;
+        top: 110px;
+        left: 30px;
+    }
+
+    #toji {
+        position: relative;
+        width: 250px;
+        left: 58px;
+        top: 116px;
+        border-radius: 5%;
+    }
+
+    #tojisword {
+        position: relative;
+        width: 200px;
+        left: 58px;
+        top: 116px;
+        border-radius: 5%;
+    }
+
+    #mod-p {
+        position: relative;
+        left: 15px;
+        top: 130px;
+        font-size:25px;
+    }
+
+    #pdf {
+        position: relative;
+        left: 20%;
+        top: 20%;
+        height: 60%;
+    }
+
+    .download-icon {
+        display:inline-block;
+        position: relative;
+        width: 60px;
+        height: 60px;
+        top: 28%;
+        left: -12%;
+    }
+
+    #hint-p {
+        position: relative;
+        font-size: 25px;
+        top: 30%;
+        left: 350px;
+    }
 }
