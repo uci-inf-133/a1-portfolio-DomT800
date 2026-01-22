@@ -218,11 +218,18 @@ a {
         font-size: 150%;
     }
 
-    #pdf {
+    .pdf {
         position: relative;
         left: 25%;
         top: 32%;
         height: 50%;
+    }
+
+    .fall-back-pdf {
+        position: relative;
+        left: 20%;
+        top: 0%;
+        width: 30%;
     }
 
     .download-icon {
@@ -232,6 +239,7 @@ a {
         height: 57px;
         top: 39%;
         left: -5%;
+        color: transparent;
     }
 
     #hint-p {
@@ -400,11 +408,18 @@ a {
         font-size: 150%;
     }
 
-    #pdf {
+    .pdf {
         position: relative;
         left: 20%;
         top: 25%;
         width: 60%;
+    }
+
+    .fall-back-pdf {
+        position: relative;
+        left: 20%;
+        top: 0%;
+        width: 30%;
     }
 
     .download-icon {
@@ -414,6 +429,7 @@ a {
         height: 100px;
         top: 35%;
         left: -15%;
+        color: transparent;
     }
 
     #hint-p {
@@ -534,11 +550,18 @@ a {
         font-size:25px;
     }
 
-    #pdf {
+    .pdf {
         position: relative;
         left: 20%;
         top: 20%;
         height: 60%;
+    }
+
+    .fall-back-pdf {
+        position: relative;
+        left: 20%;
+        top: 0%;
+        width: 30%;
     }
 
     .download-icon {
@@ -548,6 +571,7 @@ a {
         height: 60px;
         top: 28%;
         left: -12%;
+        color: transparent;
     }
 
     #hint-p {
@@ -665,11 +689,18 @@ a {
         font-size:25px;
     }
 
-    #pdf {
+    .pdf {
         position: relative;
         left: 20%;
         top: 20%;
         height: 60%;
+    }
+    
+    .fall-back-pdf {
+        position: relative;
+        left: 20%;
+        top: 0%;
+        width: 30%;
     }
 
     .download-icon {
@@ -679,6 +710,7 @@ a {
         height: 60px;
         top: 28%;
         left: -12%;
+        color: transparent;
     }
 
     #hint-p {
