@@ -14,7 +14,8 @@ EMAIL: dominmt2@uci.edu
     <link rel="stylesheet" href="styles.css">
     <!-- you would also link to Bootstrap here! -->
     <title>Dom's Portfolio</title>
-    <link rel="icon" href="favicon_io/android-chrome-192x192.png">
+    <link rel="icon" href="d4dom.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
 
@@ -31,17 +32,15 @@ EMAIL: dominmt2@uci.edu
       <header>
         <h1>Here is my downloadable resume!</h1>
       </header>
-      <embed src="resume.pdf" type="application/pdf" width="40%" height="600px" />
+      <embed src="assets/resume.pdf" type="application/pdf" id="pdf">
 
-      <picture>
-        <a href="resume.pdf" download>
-          <img src="lake.jpg">
-        </a>
-      </picture>
-
+  
+      <a href="resume.pdf"  class="download-icon" download>
+        <picture>
+          <img src="assets/download_icon.png"  class="download-icon" alt="An icon of download symbol.">
+        </picture>
+      </a>
+      <p id="hint-p">Press the icon to download my resume as a pdf!</p>
     </main>
-
-
-
   </body>
 </html>
